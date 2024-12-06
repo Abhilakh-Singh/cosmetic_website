@@ -1,0 +1,307 @@
+.top-bar {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.7;
+    font-family: Open Sans;
+    color: #121212;
+}
+.top-bar a {
+    color: #000;
+    margin-right: 20px;
+}
+
+/* .logo{
+    padding: 10px 80px 10px 80px;
+} */
+.navbar {
+    padding: 15px 0;
+}
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.nav-item{
+font-size: 20px;
+}
+.slider {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* section2 */
+
+.block-content h3{
+    font-size: 58px;
+    font-family: Open Sans;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.block-content{
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+}
+.second-logo{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.ultimate h3{
+    color: #d3ad69;
+    font-family: Open Sans;
+    font-size: 58px;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+.life h4{
+    font-size: 29px;
+}
+.global{
+display: flex;
+justify-content: center;
+color: #d3ad69;;
+}
+.description{
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+    width: 70%;
+}
+.healthy{
+    padding: 1rem;
+}
+.button1{
+    margin: 1.5rem 0px 5rem 0px;
+}
+/* section3  */
+
+.container-fluid{
+    background-image: url(assets/bg-hair.jpg);
+}
+.border-title {
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 4rem;
+}
+.collection{
+    color: #121212;
+    font-size: 58px;
+    font-weight: 400;
+}
+.solution{
+    color: #121212;
+    font-weight: 400;
+    line-height: 1.3;
+    font-size: 29px;
+    letter-spacing: 0.01em;
+}
+.collections-card{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+/* section4 */
+.mission{
+    float: left;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 50px;
+    z-index: 1;
+}
+.main-div{
+    background: #000;
+}
+.fashion{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .slider {
+        height: 300px;
+    }
+}
+
+@media (max-width: 440px) {
+    .block-content h3 {
+        font-size: 45px;
+    }
+    .individual h4 {
+        font-size: 17px !important;
+    }
+}
+@media (max-width: 390px) {
+    .collection{
+        font-size: 50px;
+    }
+    .follow{
+        font-size: 14px;
+    }
+    .social-contact {
+        font-size: 15px !important;
+    }
+    .ultimate h3{
+        font-size: 40px;
+    }
+}
+/* section 5 */
+.programs-div{
+    background: #f8f9fa;
+}
+.programs{
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+.individual{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.image-div{
+max-width: 1000px;
+}
+
+.program-img{
+    width: 70%;
+    border: 5px solid;
+    border-radius: 42px;
+}
+.individual h4{
+font-size: 2rem;
+}
+.program-btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+.explore-btn{
+    background: #d3ad69;
+    color: #fff;
+    font-size: 18px;
+}
+@media (max-width: 768px) {
+    .program-img {
+      width: 140%;
+      margin-bottom: 1rem;
+    }
+    .social-header{
+        font-size: 10px;
+    }
+    .collection{
+        font-size: 43px;
+    }
+    .solution {
+        font-size: 20px;
+    }
+}
+@media (max-width: 587px) {
+    .individual h4 {
+        font-size: 1.5rem;
+    }
+}
+
+/* section 6 */
+.contact{
+    background-image: url(assets/google\ image.jpg);
+}
+.contact-col{
+background-image: url(assets/contact\ us\ bg.jpg);
+}
+.send{
+    background-color: #d3ad69 !important;
+    color: #fff !important;
+    width: 100%;
+}
+.contact-us{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.contact-image{
+    display: flex;
+    justify-content: center;
+}
+.contact-img{
+    width: 65%;
+    border: 5px solid;
+    border-radius: 45px;
+}
+@media (max-width: 576px) {
+    .contact-link {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .ultimate h3{
+        font-size: 50px;
+    }
+}
+.footer-div{
+ background: #000;
+}
+.services{
+    color: #fff;
+}
+.social-icon{
+font-size: 2rem;
+}
+.footer-heading{
+    color: #ffffff; 
+    padding: 20px;
+}
+@media (max-width: 686px) {
+    .individual h4{
+        font-size: 1.5rem;
+        }
+}
+@media (max-width: 657px) {
+    .social-icon{
+        font-size: 1.5rem;
+        }
+}
+
+@media (max-width: 521px) {
+    .individual h4 {
+        font-size: 20px;
+    }
+    .contact-us h4{
+        font-size: 19px;
+    }
+    .social-contact{
+        font-size: 18px;
+    }
+    .ultimate h3{
+        font-size: 45px;
+    }
+}
+@media (max-width: 421px) {
+    .social-header{
+        font-size: 9px;
+    }
+    .footer-heading{
+        font-size: 15px;
+    }
+    .services{
+        font-size: 13px;
+    }
+    .social-icon{
+        font-size: 1rem;
+        }
+        .ultimate h3{
+            font-size: 40px;
+        }
+     
+
+}
